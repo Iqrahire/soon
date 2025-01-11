@@ -36,12 +36,17 @@
             font-weight: bold;
             border-radius: 0;
             box-shadow: inset 0 0 0 var(--border-size) currentcolor;
-            transition: background .8s ease;
+            transition: background .3s ease;
             margin-bottom: 40px;
         }
 
+        .button:hover {
+            background: #fff;
+            color: black;
+        }
+
         @media screen and (max-width: 767px) {
-            .button{
+            .button {
                 width: 350px;
 
             }
@@ -89,11 +94,15 @@
                         <div class="col-xl-7 col-lg-7">
 
 
-                            <div class="wow fadeInRight" data-wow-delay=".4s" data-countdown="2025/01/11 11:00:00">
+                            <div class="wow fadeInRight" data-wow-delay=".4s" data-countdown="2025/01/11 16:00:00">
                             </div>
-                            <button class="button" onclick="window.location.href='https://www.iqrahire.in'">
+                            <button id="launchButton" class="button" onclick="launchAction()" >
                                 Launch Now
                             </button>
+                            
+                            
+                            
+                            
                         </div>
                         <div class="col-xl-5 col-lg-5">
                             <!-- desc strat  -->
