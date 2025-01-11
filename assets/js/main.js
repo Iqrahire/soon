@@ -69,7 +69,7 @@ $(function () {
             // Add a delay before executing the "Launch Now" action (redirect)
             setTimeout(function () {
                 window.location.href = 'https://www.iqrahire.in'; // Redirect
-            }, 1000); // Delay for 1 second (adjust if needed)
+            }, 400); // Delay for 1 second (adjust if needed)
         });
     });
 
